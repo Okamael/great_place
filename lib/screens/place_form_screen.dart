@@ -17,8 +17,13 @@ class _PlaceFormScreenState extends State<PlaceFormScreen> {
         title: Text('Novo Lugar'),
       ),
       body: Center(
-        child: Text('Form!!'),
-      ),
+          child: Column(
+        children: [
+          TextField(
+            decoration: InputDecoration(labelText: 'Titulo'),
+          )
+        ],
+      )),
     );
   }
 }
