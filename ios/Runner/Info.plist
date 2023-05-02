@@ -12,6 +12,17 @@
 	<string>$(PRODUCT_BUNDLE_IDENTIFIER)</string>
 	<key>CFBundleInfoDictionaryVersion</key>
 	<string>6.0</string>
+	<key>NSPhotoLibraryUsageDescription</key>
+	<string>We need to take a picture!</string>
+	<key>NSCameraUsageDescription</key>
+	<string>We need to take a picture!</string>
+
+	<key>NSLocationWhenInUseUsageDescription</key>
+	<string>We need to take a location!</string>
+
+	<key>NSLocationAlwaysUsageDescription</key>
+	<string>We need to take a location!</string>
+
 	<key>CFBundleName</key>
 	<string>great_place</string>
 	<key>CFBundlePackageType</key>
